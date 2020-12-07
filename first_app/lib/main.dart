@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
           title: Text('title'),
           backgroundColor: Color.fromRGBO(12, 122, 22, 1),
         ),
+        body: Text('Hello World!'),
       ),
     );
   }
