@@ -12,9 +12,25 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('title'),
-          backgroundColor: Color.fromRGBO(12, 122, 22, 1),
+          backgroundColor: Color.fromRGBO(62, 122, 22, 1),
         ),
-        body: Text('Hello World!'),
+        body: Column(
+          children: <Widget>[
+            Text('Question 1'),
+            RaisedButton(
+              child: Text('Answer 1'),
+              onPressed: null,
+            ),
+            RaisedButton(
+              child: Text('Answer 2'),
+              onPressed: null,
+            ),
+            RaisedButton(
+              child: Text('Answer 3'),
+              onPressed: null,
+            ),
+          ],
+        ),
       ),
     );
   }
